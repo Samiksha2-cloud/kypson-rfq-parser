@@ -21,8 +21,8 @@ gsm [ 52/52], micron [52/52], location [52/52]).
 Caveat: I wrote the parser and these tests together, so this score is
 optimistic. On 18 fresh messages I wrote after the parser was built, only
 10 were fully correct on the first run; the failures became fixes and new tests.
-score.py was not included in the assignment files, so I used my own script
-(my_score.py) that compares every field exactly.
+score.py was missing from the original files; Kypson sent it later. I kept
+my own my_score.py too, because it prints which fields fail and why.
 
 ## 3. Three messages my parser gets wrong
 1. "stretch film 17 mic 800 kg Pimpri Chinchwad" -> location "Chinchwad",
